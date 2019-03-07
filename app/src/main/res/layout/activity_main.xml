@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_test_scroll_vp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toTestScrollVp"
+        android:text="Scroll + Vp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_test_scroll_vp_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toTestScrollVp"
+        android:text="Scroll + Vp 2"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_test_recycler_vp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toTestRecyclerVp"
+        android:text="Recycler + Vp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_test_2recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toTest2Recycler"
+        android:text="2Recycler"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_test_scroll_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toTestSvRecycler"
+        android:text="Sv and Recycler"
+        android:textAllCaps="false" />
+</LinearLayout>

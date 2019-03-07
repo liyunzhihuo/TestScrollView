@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="13dp"
+    android:paddingTop="13dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/load_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已全部加载完成"
+        android:textColor="#909093"
+        android:textSize="11sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_load_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.hssb.framelibrary.widget.refreshlayout.widget.IosLoding
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginRight="7dp" />
+
+        <TextView
+            android:id="@+id/load_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载中..."
+            android:textColor="#909093"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+</LinearLayout>
